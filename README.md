@@ -99,8 +99,9 @@ KNN achieved the highest test accuracy, while Decision Tree provided the lowest 
 
 1. Clone this repository.
 2. Install the required Python dependencies.
-3. Load the dataset.
-4. Execute the model training and evaluation scripts.
+3. Load the dataset and execute the model training and evaluation scripts.
 5. Convert the trained models into embedded C implementations.
 6. Open the ESP32 firmware in Arduino IDE.
-7. Connect the DHT22 and
+7. Connect the DHT22 andConnect the DHT22 and PIR sensors to the configured GPIO pins.
+8. Upload the firmware to the ESP32.
+9. Open the Serial Monitor to observe predictions and inference timings.
